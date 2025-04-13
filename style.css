@@ -34,13 +34,6 @@
   animation: spin 2s liner infinite;
   background-color: #3498db;
 }
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 } */
 html {
   font-size: 62.5%;
