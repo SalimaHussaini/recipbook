@@ -24,7 +24,25 @@
   border-radius: 50%;
   animation: loading 0.75s ease infinite;
 }
-
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+.loader::after {
+  width: 75px;
+  height: 75px;
+  border: 15px solid #dddddd;
+  border-top-color: #009578;
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+@keyframes loading {
+  form {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
 /* .loader {
   border: 16px solid #f3f3f3;
   border-top: 16px solid #3498db;
